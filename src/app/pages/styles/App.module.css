@@ -1,0 +1,9 @@
+.app {
+	height: 100vh;
+	background-size: 100% 100%;
+	/* animation: gradient 30s ease infinite; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-position: center;
+}

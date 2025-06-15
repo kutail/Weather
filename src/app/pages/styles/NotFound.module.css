@@ -1,0 +1,45 @@
+.notfound {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.code {
+	font-size: 15rem;
+	font-weight: 900;
+	display: block;
+	text-transform: uppercase;
+	font-weight: 900;
+	background: var(--linear-gradient);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.button {
+	padding: 1rem 5rem;
+	background-color: rgba(255, 255, 255, 0.12);
+	color: white;
+	font-size: 1.5rem;
+	border-radius: 1rem;
+	border: none;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.button:hover {
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.icon {
+	margin-right: 0.5rem;
+}
+
+.text {
+	font-size: 1.5rem;
+}
